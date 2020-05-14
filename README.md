@@ -6,7 +6,7 @@ En el archivo settings.py:
 - CURRENCIES: Monedas disponibles
 
 ## API
-(EXCHANGE RATES API)[https://api.exchangeratesapi.io]
+[EXCHANGE RATES API](https://api.exchangeratesapi.io)
 
 ## Uso
 `python manage.py fetch_exchange_rates`  
