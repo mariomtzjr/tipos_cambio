@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load djmoney %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tipos de cambio</title>
+</head>
+<body>
+    <h1>Tipos de cambio | Monedas</h1>
+    {% money_localize '4' 'EUR' %}
+    {% for servicio in servicios %}
+        <h5>Nombre del servicio: </h5>{{servicio.nombre}}
+        <h5>Costo: {{servicio.costo}}</h5>
+    {% endfor %}
+</body>
+</html>
