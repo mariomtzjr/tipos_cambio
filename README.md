@@ -1,4 +1,4 @@
-# tipos_cambio
+# tipos_cambio (django-money, django-money[exchange])
 
 ## Especificaciones
 En el archivo settings.py:
